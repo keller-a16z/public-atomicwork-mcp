@@ -29,7 +29,7 @@ Atomicwork is an enterprise service management platform that helps IT teams mana
 
 ```bash
 # Clone the repository
-git clone https://github.com/keller-a16z/public-atomicwork-mcp.git
+git clone https://github.com/YOUR_USERNAME/atomicwork-mcp.git
 cd atomicwork-mcp
 
 # Install dependencies
