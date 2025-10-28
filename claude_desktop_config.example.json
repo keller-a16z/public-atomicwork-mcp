@@ -2,7 +2,7 @@
   "mcpServers": {
     "atomicwork": {
       "command": "node",
-      "args": ["/ABSOLUTE/PATH/TO/atomicwork-mcp/dist/index.js"],
+      "args": ["/ABSOLUTE/PATH/TO/public-atomicwork-mcp/dist/index.js"],
       "env": {
         "ATOMICWORK_API_KEY": "your_api_key_here",
         "ATOMICWORK_BASE_URL": "https://your-company.atomicwork.com/api/v1",

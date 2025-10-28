@@ -4,6 +4,7 @@
   "description": "MCP server for Atomicwork ticket integration",
   "type": "module",
   "main": "dist/index.js",
+  "keywords": ["mcp", "atomicwork", "claude", "ai", "tickets", "itsm", "service-management"],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",

@@ -30,7 +30,7 @@ Atomicwork is an enterprise service management platform that helps IT teams mana
 ```bash
 # Clone the repository
 git clone https://github.com/keller-a16z/public-atomicwork-mcp.git
-cd atomicwork-mcp
+cd public-atomicwork-mcp
 
 # Install dependencies
 npm install  # or: bun install
@@ -75,7 +75,7 @@ Add the MCP server to your Claude Desktop configuration file:
     "atomicwork": {
       "command": "node",
       "args": [
-        "/ABSOLUTE/PATH/TO/atomicwork-mcp/dist/index.js"
+        "/ABSOLUTE/PATH/TO/public-atomicwork-mcp/dist/index.js"
       ],
       "env": {
         "ATOMICWORK_API_KEY": "your_api_key_here",
@@ -89,7 +89,7 @@ Add the MCP server to your Claude Desktop configuration file:
 ```
 
 **Replace:**
-- `/ABSOLUTE/PATH/TO/atomicwork-mcp/dist/index.js` with the actual path to the built server
+- `/ABSOLUTE/PATH/TO/public-atomicwork-mcp/dist/index.js` with the actual path to the built server
 - `your_api_key_here` with your Atomicwork API key
 - `your-company` with your Atomicwork instance subdomain
 - `your_user_id` with your user ID
@@ -235,7 +235,7 @@ node dist/index.js
 ### Project Structure
 
 ```
-atomicwork-mcp/
+public-atomicwork-mcp/
 ├── src/
 │   └── index.ts          # Main MCP server implementation
 ├── dist/                 # Compiled JavaScript output
@@ -270,8 +270,8 @@ MIT License - see LICENSE file for details
 ## Support
 
 For issues and questions:
-- **Bug reports**: [GitHub Issues](https://github.com/YOUR_USERNAME/atomicwork-mcp/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/YOUR_USERNAME/atomicwork-mcp/discussions)
+- **Bug reports**: [GitHub Issues](https://github.com/keller-a16z/public-atomicwork-mcp/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/keller-a16z/public-atomicwork-mcp/discussions)
 
 ## Acknowledgments
 
